@@ -1,0 +1,16 @@
+{
+  "name": "celtraqa",
+  "version": "1.0.0",
+  "main": "codecept.conf.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "test:headless": "HEADLESS=true npx codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "playwright": "^1.53.0"
+  }
+}
