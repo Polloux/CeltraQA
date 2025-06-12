@@ -1,4 +1,4 @@
-/** @type {CodeceptJS.MainConfig} */
+// @ts-check
 exports.config = {
   tests: './tests/*_test.js',
   output: './output',
