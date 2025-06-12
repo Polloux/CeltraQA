@@ -35,6 +35,8 @@ Scenario('Confirm default and size descending sorting', async ({I}) => {
     // I.see('300×250', locate('.creative-variant').at(2));
     // I.see('320×50', locate('.creative-variant').at(3));
 
+    // We could also use the initialSizes that we set before
+
     // GRABBING, MAPPING AND CALCULATING AREAS
     let sizes = await I.grabTextFromAll('[data-testilda-id="creative-variant-metadata"] .creative-variant-metadata__properties__info__size-label');
     let areas = sizes.map(label => {
