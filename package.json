@@ -12,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "codeceptjs": "^3.7.3",
-    "playwright": "^1.53.0"
+    "playwright": "^1.53.0",
+    "resemblejs": "^5.0.0"
   }
 }
